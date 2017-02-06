@@ -1,0 +1,32 @@
+Definition des WP:
+
+Bilan
+	Analyser le projet existant: ce qui fonctionne, ce qui ne fonctionne pas, analyser les solutions ou améliorations proposées.
+	Se fixer sur l'idée générale du systeme dans le futur: mecanique générale, choix de l'electornique embarquée,...
+
+Camera
+	Choisir la camera: resolution, FoV, tests.
+
+Hardware mecanique:
+	Analyse: 
+		considérer une isolation du champ de vision avec un caisson
+		une isolation de la lumière et éclairage maitrisé (lumière indirect?)
+		position de la caméra
+		mouvement de la caméra
+	Implémentation: 
+		...
+
+Hardware electronique:
+	Analyse:
+		module de controle pas a pas qui crame
+		nouveau circuit avec des protections + commande du mouvement de la camera, nouveau pcb??
+	Implementation
+		...
+
+Software:
+	Analyse:
+		Analyse et choix du framework de reconaissance d'image (openCV? en C? en python? processing?lol)
+		Analyse et choix des algorithmes: OCR, ... ?
+	Implementation
+		...
+
