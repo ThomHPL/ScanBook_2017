@@ -2,7 +2,7 @@ Definition des WP:
 
 Bilan
 	Analyser le projet existant: ce qui fonctionne, ce qui ne fonctionne pas, analyser les solutions ou améliorations proposées.
-	Se fixer sur l'idée générale du systeme dans le futur: mecanique générale, choix de l'electornique embarquée,...
+	Se fixer sur l'idée générale du systeme dans le futur: mecanique générale, choix de l'electronique embarquée, display?, controles, microcontroleur ou pas?...
 
 Camera
 	Choisir la camera: resolution, FoV, tests.
