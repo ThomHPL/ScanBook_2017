@@ -12,6 +12,7 @@ amelioration mecanique
 Choix systeme global:pour correspondre aux besoin du client
 	Utiliser Raspberry
 	Utiliser camera pi 1.3 (car dispo)
+	Soit une camera motorisée, soit 2 camera et 2 raspberry, soit 2 camera, un raspberry, et une solution de switch d'une camera a l'autre.
 	Software:
 		Utiliser une librairie de computer vision (openCV?) pour le traitement d'image
 		Creation du pdf, envoi par mail, sauvegarde sur SD, sauvegarde sur USB,...?
@@ -28,6 +29,19 @@ Choix systeme global:pour correspondre aux besoin du client
 		la camera sera differente
 		stabiliser le support
 		integrer le deplacement de la camera
+
+Liste commande:
+	moteur pour le traveling camera		10 euro
+	servomoteur pour orientation camera	10 euro
+	fin de course x2			2 euro
+	lcd pour le raspberry			15 euro
+	raspberry				40 euro
+	camera 8MP?				30 euro
+	nappe camera ralonge			
+	module arducam multi cam		50 euro
+
+						157
+	
 	
 	
 	
