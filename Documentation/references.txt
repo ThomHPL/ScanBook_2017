@@ -1,0 +1,2 @@
+switch MIPI D-PHY
+	http://www.ivmech.com/magaza/en/development-modules-c-4/ivport-dual-v2-raspberry-pi-camera-module-v2-multiplexer-p-109
