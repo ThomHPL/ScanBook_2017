@@ -16,13 +16,13 @@ Choix systeme global:pour correspondre aux besoin du client
 		Utiliser une librairie de computer vision (openCV?) pour le traitement d'image
 		Creation du pdf, envoi par mail, sauvegarde sur SD, sauvegarde sur USB,...?
 		Coder en c++ pour chercher le max de performance, et parce que on sait l'utiliser...
-		Si utilisation d'un display graphique: creer une interface graphique et utilisateur?
+		Si utilisation d'un display graphique: creer une interface graphique et utilisateur? voir ecran HY28A?
 		Coder la gestion de la mecanique, si pas faite par un microcontroleur 
 	Electronique
 		Ajout: servo pour l'orientation de la camera, moteur pour deplacer la camera
 		Utiliser un microcontrolleur, ou tout par les gpio u raspberry? On peut faire un parseur GCode sur le mcu, pour simplifier le software sur raspberry
 		Design d'un "hat" pour tout integrer sur le raspberry, a discuter en fonction du lcd choisi? 
-		Prevoir des connecteurs bananes pour l'alim, jack DC et bornier
+		Prevoir des connecteurs bananes pour l'alim, jack DC et bornier: penser a un bloc alim 12V
 	Mecanique: 
 		meilleure maitrise de la lumiere et du champ de vision
 		la camera sera differente
