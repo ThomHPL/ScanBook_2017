@@ -1,0 +1,8 @@
+Pi Camera 1.4:
+	Champ de vision pre calculé:
+		horizontal: 49.95°
+		vertical: 37.8°
+	Mesure: fueille de 210*280mm placée à 285mm rempli le champ de vision
+		horizontal: 52.30°
+		vertical: 40.44°
+	cette mesure n'est pas très fiable (a mains levée) mais permet de valider le calcul initial
