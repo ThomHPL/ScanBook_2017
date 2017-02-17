@@ -1,0 +1,17 @@
+	Software:
+		Décidé: utiliser openCV
+		Creation du pdf, envoi par mail, sauvegarde sur SD, décidé: ajout sauvegarde sur clé USB
+		Coder en c++ pour chercher le max de performance, et parce que on sait l'utiliser...
+		Ne pas gerer la motorisation: c'est fait sur le microcontrolleur
+		A décider: ecran à utiliser !!!
+
+	Electronique:
+		Décidé: Pas de servo, mais circuit pour switcher entre 2 camera
+		Décidé: Utiliser un microcontrolleur
+		Pas de design de "hat": il faudrait connaitre tous les ocmposants avant: protypage plus artisanal
+		Prevoir des connecteurs bananes pour l'alim, jack DC et bornier: penser a un bloc alim 12V: a voir en cours de route, on peut faire un pcb a l'école
+
+	Mecanique: 
+		meilleure maitrise de la lumiere et du champ de vision
+		camera mobile: elles doivent etre assez proche des pages du livre, en plus: permet de fermer l'environnement de prise de vue
+		Structure ouverte: ! triangulariser les support de la partie mobile!
