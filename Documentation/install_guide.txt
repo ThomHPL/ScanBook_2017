@@ -1,0 +1,66 @@
+1 - install Raspberry Pi OS
+
+Download raspbian with pixel from https://www.raspberrypi.org/downloads/raspbian/
+
+Download win32DiskImager from https://sourceforge.net/projects/win32diskimager/ 
+
+unzip the Raspbian disk image from the downloaded zip file
+use win32DiskImager to burn the image to the sd card (min 16GB)
+
+create an empty file called "ssh" on the root directory of the SD card to enable ssh by default
+to use your windows computer to share its internet acces and connect to the raspi through ssh, follow tutorial from https://anwaarullah.wordpress.com/2013/08/12/sharing-wifi-internet-connection-with-raspberry-pi-through-lanethernet-headless-mode/
+(ping raspberrypi.mshome.net)
+
+
+
+2- install 3.5" tft lcd
+
+auto login to pi user
+sudo raspi-config
+	advanced options
+		expand filesystem
+			YES
+	boot options
+		B3 splash screen
+			YES
+	boot options
+		B1 Desktop / CLI
+			B4 desktop autologin
+
+wget http://www.waveshare.com/w/upload/7/74/LCD-show-170309.tar.gz
+tar xvf LCD-show-170309.tar.gz
+cd LCD-show/
+chmod +x LCD35-show
+./LCD35-show
+
+3 - enable camera and vnc server
+
+sudo raspi-config
+	interfacing options
+		P1 camera
+			YES
+sudo raspi-config
+	interfacing options
+		P3 vnc
+			YES
+on windows computer, install vnc viewer from https://www.realvnc.com/download/viewer/
+
+
+4 - install opencv
+sudo apt-get --yes --force-yes install libtiff5-dev libjasper-dev libpng12-dev
+sudo apt-get --yes --force-yes install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+sudo apt-get --yes --force-yes install libgtk2.0-dev
+sudo apt-get --yes --force-yes install libatlas-base-dev gfortran
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python get-pip.py
+sudo pip install numpy
+rm latest-OpenCV.deb
+wget "https://github.com/jabelone/OpenCV-for-Pi/raw/master/latest-OpenCV.deb"
+sudo dpkg -i latest-OpenCV.deb
+
+5 - install application
+copy application folder in ~/scanbook then
+	chmod 755 ~/scanbook/install_deps.sh
+	chmod 755 ~/scanbook/main
+run it to test
+	./main

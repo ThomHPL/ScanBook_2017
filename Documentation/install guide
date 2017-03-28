@@ -1,0 +1,13 @@
+1 - install Raspberry Pi OS
+
+Download raspbian with pixel from https://www.raspberrypi.org/downloads/raspbian/
+
+Download win32DiskImager from https://sourceforge.net/projects/win32diskimager/ 
+
+unzip the Raspbian disk image from the downloaded zip file
+use win32DiskImager to burn the image to the sd card (min 16GB)
+
+create an empty file called "ssh" on the root directory of the SD card to enable ssh by default
+to use your windows computer to share its internet acces and connect to the raspi through ssh, follow tutorial from https://anwaarullah.wordpress.com/2013/08/12/sharing-wifi-internet-connection-with-raspberry-pi-through-lanethernet-headless-mode/
+
+
